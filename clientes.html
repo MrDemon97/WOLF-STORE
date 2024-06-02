@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header id="header" class="grid grid-cols-10 container mx-auto mb-4">
+        <!-- logo -->
+        <div class="col-span-3">
+            <a href="/"><img src="/img/logo.svg" alt="Logo de EDteam" class="logo"></a>
+        </div>
+        <!-- menu -->
+        <div class="col-span-7">
+            <nav class="flex justify-end menu">
+                <ul class="flex">
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/servicios.html">Nuestros servicios</a></li>
+                    <li><a href="/clientes.html" class="selected">Nuestros clientes</a></li>
+                    <li><a href="/contacto.html">Contáctenos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- menu -->
+    </header>
+    <div id="banner" class="container mx-auto mb-8">
+        <img src="/img/clientes.jpg" alt="">
+    </div>
+    <div class="container mx-auto grid grid-cols-4 gap-8 mb-8">
+        <main id="main" class="col-span-3">
+            <h1 class="title">Academia de natación Los manaties</h1>
+            <p>"¡Hola mamás! En nuestra Academia de Natación, los niños y adolescentes disfrutan de cursos durante todo el año, no solo en verano. Con profesores expertos y estudiantes que son campeones de natación, garantizamos diversión y aprendizaje de calidad. ¡Inscribe a tus pequeños y mira cómo se convierten en estrellas del agua!"
+            </p>
+        </main>
+        <aside>
+            <h2 class="subtitle">Siguenos en redes</h2>
+            <div class="flex social">
+                <a href="https://facebook.com"><img src="/img/facebook.png" alt=""></a>
+                <a href="https://tiktok.com"><img src="/img/tiktok.png" alt=""></a>
+                <a href="https://instagram.com"><img src="/img/instagram.png" alt=""></a>
+                <a href="https://linkedin.com"><img src="/img/linkedin.png" alt=""></a>
+            </div>
+        </aside>
+    </div>
+    
+    <footer id="footer">
+        <p>Academia de natación Los Manaties <br>
+         Lima, Perú | Contacto: 987654321
+        </p>
+    </footer>
+</body>
+</html>
