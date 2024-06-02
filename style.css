@@ -2,6 +2,27 @@ header {
     padding: 2em 0 .5em;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://png.pngtree.com/background/20230612/original/pngtree-graffiti-wall-wallpapers-hd-picture-image_3182745.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+
+}
+
+main{
+    background-color: #010000e3;
+}
+
+.col-span-7{
+    margin: auto;
+}
+
 .menu {
     text-transform: uppercase;
 }
@@ -33,8 +54,8 @@ header {
 }
 
 footer {
-    background: #0c0c0c;
-    color: #fff;
+    background: #27de03;
+    color: #010000;
     text-align: center;
     padding: 1.5em 0;
 }
