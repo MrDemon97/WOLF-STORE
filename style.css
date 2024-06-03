@@ -34,6 +34,25 @@ img, video {
     height: auto;
 }
 
+.tallaRopa{
+    border: 1px solid white;
+    width: 1.5em;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.tallaRopa:hover{
+    scale: 1.5;
+    background-color: aqua;
+}
+
+.tallaRopa:active{
+    background-color: red;
+}
+
 .col-span-3 {
     align-items: center;
     margin: auto;
