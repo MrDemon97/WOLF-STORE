@@ -121,11 +121,16 @@ aside {
 
 .catalogo li {
     margin: 1.5em;
+    background-color: #010000e3;
+    padding: 0.5em;
+    font-family: "Abel", sans-serif;
+    font-size: 1.2em;
 }
 
 .productos img {
     height: 17em;
     width: auto;
+    margin: 0.5em;
 }
 
 footer {
