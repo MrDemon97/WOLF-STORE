@@ -80,9 +80,9 @@ footer {
 .logo {
     width: 6em;
 }
-.imagengrande{
-     border-radius: 25px 0 25px 0
-     width=800px;
-    
 
+.imagengrande {
+    width: 500px;
+    text-align: center;
+    border-radius: 30px 0 30px 0;
 }
