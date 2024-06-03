@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WOLF STORE</title>
+    <title >WOLF STORE</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,26 +11,29 @@
     <header id="header" class="grid grid-cols-10 container mx-auto mb-4">
         <!-- logo -->
         <div class="col-span-3">
-            <a href="/"><img src="img/logo_lobo.png" alt="Logo tienda" class="logo"></a>
-            <h2 class="titulo-pagina"><strong>WOLF STORE</strong></h2>
+            <a href="/"><img src="img/logo_lobo.png" alt="Logo de EDteam" class="logo"></a>
+            <h2 id="titulo-pagina"><strong>WOLF STORE</strong></h2>
         </div>
         <!-- menu -->
         <div class="col-span-7">
             <nav class="flex justify-end menu">
                 <ul class="flex">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="catalogo.html">Catálogo</a></li>
-                    <li><a href="clientes.html">Clientes</a></li>
-                    <li><a href="contacto.html" class="selected">Contáctenos</a></li>
+                    <li><a href="/" class="selected">Inicio</a></li>
+                    <li><a href="servicios.html">Nuestros servicios</a></li>
+                    <li><a href="clientes.html">Nuestros clientes</a></li>
+                    <li><a href="contacto.html">Contáctenos</a></li>
                 </ul>
             </nav>
         </div>
         <!-- menu -->
     </header>
-    <br>
+
     <h1 class="title">WOLF STORE ROPA DEPORTIVA</h1>
     <br>
-    <img id="imagengrande" src="img/tienda.jpeg" alt="foto-tienda">
+   
+    <img  class="priimagen" src="img/tienda.jpeg" alt="foto-tienda">
+    
+    <br>
     <div class="container mx-auto grid grid-cols-4 gap-8 mb-8">
         <main id="main" class="col-span-3">
             <p class="descripcion">En <em>WOLF STORE</em>, nos apasiona la vida activa y la moda urbana. Nuestra tienda combina lo mejor de ambos mundos: ropa deportiva de alta calidad con un toque moderno y urbano. ¿Qué puedes esperar de nosotros?</p><br>
@@ -49,27 +52,12 @@
             </ol>
         </main>
         <aside>
-            <div class="modelos">
-                <div id="modelo1">
-                    <img class="imagen-modelo" src="img/modelo1.jpeg" alt="Hombre viestiendo sudadera">
-                    <p class="descripcion-articulo">WINTER HODDIE MEN</p>
-                </div>
-
-                 <div id="modelo2">
-                    <img class="imagen-modelo" src="img/modelo2.jpeg" alt="Hombre viestiendo sudadera">
-                    <p class="descripcion-articulo">WINTER HODDIE WOMEN</p>
-                 </div>                     
-                    
-            </div>
-
-            <h2 class="subtitle">Siguenos en redes</h2>
-            <div class="flex social">
+            <div class="flex_social">
                 <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
                 <a href="https://tiktok.com"><img src="img/tiktok.png" alt=""></a>
                 <a href="https://instagram.com"><img src="img/instagram.png" alt=""></a>
                 <a href="https://linkedin.com"><img src="img/linkedin.png" alt=""></a>
             </div>
-            
         </aside>
     </div>
     
@@ -80,3 +68,4 @@
     </footer>
 </body>
 </html>
+
