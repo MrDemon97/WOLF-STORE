@@ -21,13 +21,12 @@ body {
 
 main{
     background-color: #010000e3;
-}
-
-img, video {
-    margin: auto;
-    margin-bottom: 1em;
-    max-width: 100%;
-    height: auto;
+    margin-left: 240px;
+    margin-right: -100px;
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .col-span-7{
@@ -47,24 +46,33 @@ img, video {
 
 .menu a:hover,
 .menu a.selected {
-    background: steelblue;
+    background: rgb(32, 170, 175);
+    box-shadow: 0px 10px 70px rgb(14, 243, 247);
     color: #fff;
+    margin-left: 100px;
 }
 
-h1 {
+.title{
     font-family: "Lilita One";
     text-align:center;
-    margin-bottom: .5em;
     text-shadow: 0px 10px 30px rgb(14, 226, 230);
-    font-size: 2em;
+    font-size: 65px;
+    margin-top: 80px;
 }
 
-.titulo-pagina{
-    text-align: center;
+.priimagen{
+    
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    border-radius: 10% 30% 50% 70%;
+    
 }
+
+
 
 .subtitle {
-    text-align: center;
     font-size: 1.3em;
     font-weight: 700;
     margin-bottom: .5em;
@@ -75,30 +83,23 @@ h1 {
     font-family: "Abel", sans-serif;
     font-size: 1.8em;
     box-align:center;
+
 }
 
-.flex{
-    justify-content: center;
-}
+.flex_social{
 
-.imagen-modelo{
-    height: 100%;
-    width: auto;
-}
+    width: 50px;
+    margin-left: 180px;
+    flex-direction: column;
+    display: grid;
+    gap: 10px 10px;
+    align-items: end;
+    align-items: end;
 
-aside{
-    text-align: center;
-    align-content: center;
-    
-}
 
-.modelos div{
-    margin-top: 4em;
-    margin-bottom: 4em;
 }
-
 footer {
-    background: #27de03;
+    background: rgb(8, 124, 126);
     color: #010000;
     text-align: center;
     padding: 1.5em 0;
@@ -111,8 +112,14 @@ footer {
 
 .logo {
     width: 6em;
-}
+    margin-left: 55px;
 
+}    
+
+h2{
+
+    margin-left: 50px;
+}
 .imagengrande {
     width: 500px;
     border-radius: 30px 0 30px 0;
