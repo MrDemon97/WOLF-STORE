@@ -49,7 +49,7 @@ h1 {
     text-align:center;
     margin-bottom: .5em;
     text-shadow: 0px 10px 30px rgb(14, 226, 230);
-    font-size: 60px;
+    font-size: 500px;
 }
 
 .subtitle {
@@ -79,4 +79,10 @@ footer {
 
 .logo {
     width: 6em;
+}
+.imagengrande{
+     border-radius: 25px 0 25px 0
+     width=800px;
+    
+
 }
