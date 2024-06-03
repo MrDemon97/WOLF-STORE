@@ -61,6 +61,7 @@ main{
 .descripcion{
     font-family: "Abel", sans-serif;
     font-size: 1.8em;
+    text-align:center;
 }
 
 footer {
