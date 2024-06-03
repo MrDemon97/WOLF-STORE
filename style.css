@@ -47,9 +47,10 @@ main{
 .title {
     font-family: "Lilita One";
     text-align:center;
-    font-size: 2.4em;
     margin-bottom: .5em;
     text-shadow: 0px 10px 30px rgb(14, 226, 230);
+    text-align:center;
+    font-size: 60px;
 }
 
 .subtitle {
