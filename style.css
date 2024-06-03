@@ -34,6 +34,11 @@ img, video {
     height: auto;
 }
 
+.col-span-3 {
+    align-items: center;
+    margin: auto;
+}
+
 .col-span-7 {
     margin: auto;
 }
@@ -45,7 +50,7 @@ img, video {
 .menu a {
     padding: .4em .8em;
     margin-left: .2em;
-    font-size: .9em;
+    font-size: 1.2em;
     border-radius: .25em;
 }
 
@@ -73,7 +78,7 @@ h1 {
     text-align: center;
     text-shadow: 0px 10px 30px rgb(14, 226, 230);
     font-size: 3.5em;
-    margin-top: 80px;
+    margin: 0.5em;
 }
 
 .subtitle {
@@ -85,7 +90,7 @@ h1 {
 .descripcion {
     font-family: "Abel", sans-serif;
     font-size: 1.8em;
-    box-align: center;
+    padding: 0.5em;
 }
 
 .flex {
@@ -146,7 +151,6 @@ footer {
 }
 
 .priimagen {
-    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 650px;
@@ -154,12 +158,10 @@ footer {
 }
 
 .flex_social {
-    width: 50px;
-    margin-left: 180px;
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    display: grid;
     gap: 10px 10px;
-    align-items: end;
 }
 
 h2 {
