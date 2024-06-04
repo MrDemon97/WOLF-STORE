@@ -121,6 +121,46 @@ h1 {
     width: auto;
 }
 
+.hoja-contactos img{
+    width: 10em;
+    height: 10em;
+    margin: 0.4em;
+    box-shadow: 0px 10px 30px rgb(14, 226, 230);
+}
+
+.hoja-contactos img:hover{
+    border-radius: 100px 100px 100px 100px;
+}
+
+.hoja-whatsapp{
+    border-radius: 70% 0 50% 0;
+}
+
+.hoja-instagram{
+    border-radius:  0  70%  0 50%;
+}
+
+.hoja-facebook{
+    border-radius:  0 50% 0 70%;  
+}
+
+.hoja-linkedin{
+    border-radius:  50% 0 70% 0 ;
+}
+
+.hoja-contactos ol{
+    display: flex;
+    justify-content: center;
+}
+
+.mensaje-para-clientes{
+    width: 75em;
+    background: #010000e3;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 aside {
     text-align: center;
     align-content: center;
