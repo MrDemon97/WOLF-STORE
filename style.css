@@ -96,8 +96,12 @@ h1 {
     font-family: "Lilita One";
     text-align: center;
     text-shadow: 0px 10px 30px rgb(14, 226, 230);
-    font-size: 3.5em;
+    font-size: 2em;
     margin: 0.5em;
+}
+
+img #bannerContactame{
+    height: 17em;
 }
 
 .subtitle {
@@ -119,6 +123,11 @@ h1 {
 .imagen-modelo {
     height: 100%;
     width: auto;
+}
+
+.hoja-contactos{
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .hoja-contactos img{
@@ -197,6 +206,13 @@ aside {
     height: 22em;
     margin: auto;
     padding: 0.8em;
+}
+
+.form-container{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 footer {

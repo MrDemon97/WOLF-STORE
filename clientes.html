@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WOLF STORE</title>
+    <title>WOLF STORE - Reseñas</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,33 +20,39 @@
                 <ul class="flex">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="catalogo.html">Catálogo</a></li>
-                    <li><a href="clientes.html">Clientes</a></li>
-                    <li><a href="contacto.html" class="selected">Contáctenos</a></li>
+                    <li><a href="clientes.html" class="selected" >Clientes</a></li>
+                    <li><a href="contacto.html">Contáctenos</a></li>
                 </ul>
             </nav>
         </div>
         <!-- menu -->
     </header>
     <div id="banner" class="container mx-auto mb-8">
-        <img src="img/clientes.jpg" alt="">
+        <img src="img/banner-clientes.jpeg" alt="personas con un lobo">
     </div>
-    <div class="container mx-auto grid grid-cols-4 gap-8 mb-8">
-        <main id="main" class="col-span-3">
-            <h1 class="title">Academia de natación Los manaties</h1>
-            <p>"¡Hola mamás! En nuestra Academia de Natación, los niños y adolescentes disfrutan de cursos durante todo el año, no solo en verano. Con profesores expertos y estudiantes que son campeones de natación, garantizamos diversión y aprendizaje de calidad. ¡Inscribe a tus pequeños y mira cómo se convierten en estrellas del agua!"
-            </p>
-        </main>
-        <aside>
-            <h2 class="subtitle">Siguenos en redes</h2>
-            <div class="flex social">
-                <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
-                <a href="https://tiktok.com"><img src="img/tiktok.png" alt=""></a>
-                <a href="https://instagram.com"><img src="img/instagram.png" alt=""></a>
-                <a href="https://linkedin.com"><img src="img/linkedin.png" alt=""></a>
+    <main id="main" class="container mx-auto grid grid-cols-4 gap-8 mb-8">
+        <section class="col-span-3">
+            <h1 class="title">Reseñas de Clientes</h1>
+            <div class="reseñas">
+                <!-- Reseña 1 -->
+                <div class="reseña">
+                    <h2 class="subtitle">Juan Pérez</h2>
+                    <p class="descripcion">"La calidad de la ropa es excelente y el servicio al cliente es muy bueno. Definitivamente volveré a comprar."</p>
+                </div>
+                <!-- Reseña 2 -->
+                <div class="reseña">
+                    <h2 class="subtitle">Ana García</h2>
+                    <p class="descripcion">"Me encantan los diseños únicos y modernos. La comodidad es increíble y el material es de alta calidad."</p>
+                </div>
+                <!-- Reseña 3 -->
+                <div class="reseña">
+                    <h2 class="subtitle">Carlos Rodríguez</h2>
+                    <p class="descripcion">"El mejor lugar para comprar ropa deportiva urbana. Muy recomendable por su atención y productos."</p>
+                </div>
             </div>
-        </aside>
-    </div>
-    
+        </section>
+        </div>
+    </main>
     <footer id="footer">
         <p>WOLF STORE <br>
          Bogotá, Colombia | Contacto: 987654321
