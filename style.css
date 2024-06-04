@@ -175,6 +175,14 @@ aside {
     align-content: center;
 }
 
+aside .modelos{
+    margin: 1em;
+}
+
+.reseña{
+    margin-left: 1em;
+}
+
 .modelos div {
     margin-top: 4em;
     margin-bottom: 4em;
