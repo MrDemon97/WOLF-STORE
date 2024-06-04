@@ -152,6 +152,13 @@ aside {
     margin: 0.5em;
 }
 
+#wolfMapa{
+    width: 51em;
+    height: 22em;
+    margin: auto;
+    padding: 0.8em;
+}
+
 footer {
     background: rgb(8, 124, 126);
     color: #010000;
